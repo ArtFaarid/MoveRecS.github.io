@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MiPeliculera</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <i class="fa-solid fa-film"></i>
+      <h1>MovRecS</h1>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Peliculas</a></li>
+            <li><a href="#">Series</a></li>
+        </ul>
+    </nav>
+     <div class="search">
+        <i class="fa-solid fa-search"></i>
+        <input type="text" placeholder="Buscar...">
+     </div> 
+  </header>
+  <main>
+    <section class="featured-movie">
+        <div class="movie-image">
+          <img src="cartelera/LEO.jpeg" alt="LEO">
+        </div>
+        <div class="movie-info">
+          <h2>LEO</h2>
+          <p>Leo (Sandler) es un lagarto de 74 años que lleva atrapado en el mismo aula de Florida durante décadas con su compañera de terrario, una tortuga (Bill Burr). Cuando se entera de que solo le queda un año de vida, Leo planea escapar para experimentar la vida en el exterior, pero entonces comienzan sus problemas.</p>
+          <button class="play-button">Reproducir</button>
+          <button class="info-button">Más información</button>
+        </div>
+      </section>
+  </main>
+  <h2 class="recent-movies-title">Peliculas Recientes</h2>
+  <div class="carousel-container">
+    <div class="carousel">
+      <div class="carousel-inner">
+        <ul class="slides"> 
+          <li data-index="0" data-video-src="https://uqload.to/embed-l3pkxeom5mnw.html">
+            <img src="populares/AtrapadosEnLoProfundo.jpg" alt="AtrapadosEnLoProfundo">
+            <div class="movie-info">
+              <h3>Atrapados en lo Profundo</h3>
+              <p>Duracion: 1h 35min</p>
+              <p>Una aventura de exploración submarina se convierte en una trampa de terror después de que el equipo queda atrapado en las profundidades del océano...</p>
+              <div class="movie-buttons">
+                <button class="play-button"><i class="fa-solid fa-play"></i></button>
+                <button class="info-button">Ver información</button>
+              </div>
+            </div>
+          </li>
+          <li data-index="1" data-video-src="https://uqload.cc/embed-1712157984.html">
+            <img src="populares/Codigo8Part3.jpg" alt="Codigo8Part3">
+            <div class="movie-info">
+              <h3>Code 08 (Part2)</h3>
+              <p>Duracion: 1h 40min</p>
+              <p>En una ciudad donde las personas con poderes son vigiladas y oprimidas, un ex criminal debe recurrir a un narcotraficante al que desprecia para proteger a un adolescente de un policía corrupto.</p>
+              <div class="movie-buttons">
+                <button class="play-button"><i class="fa-solid fa-play"></i></button>
+                <button class="info-button">Ver información</button>
+              </div>
+            </div>
+          </li>
+          <!--data-video-src para colocar el link de la pelicula--> 
+          <li data-index="2" data-video-src="https://player.repelis24.yt/embeds/763215">
+            <img src="populares/Damsel.jpg" alt="Damsel">
+            <div class="movie-info">
+              <h3>Damsel</h3>
+              <p>Duracion: 1h 47min</p>
+              <p>Una joven acepta casarse con un apuesto príncipe, pero descubre que todo es una trampa. Es arrojada a una cueva con un dragón que escupe fuego y debe confiar únicamente en su ingenio y voluntad para sobrevivir.
+              </p>
+              <div class="movie-buttons">
+                <button class="play-button"><i class="fa-solid fa-play"></i></button>
+                <button class="info-button">Ver información</button>
+              </div>
+            </div>
+          </li>
+          <li data-index="3" data-video-src="https://player.repelis24.yt/embeds/636706">
+            <img src="populares/ElAstronauta.jpg" alt="ElAstronauta">
+            <div class="movie-info">
+              <h3>El Astronauta</h3>
+              <p>Duracion: 1h 49min</p>
+              <p>Jakub Procházka fue criado por sus abuelos en la campiña checa tras ser abandonado de pequeño. Trabajó como científico antes de intentar convertirse en el primer astronauta de la República Checa.
+              </p>
+              <div class="movie-buttons">
+                <button class="play-button"><i class="fa-solid fa-play"></i></button>
+                <button class="info-button">Ver información</button>
+              </div>
+            </div>
+          </li>
+          <li data-index="4" data-video-src="https://www.youtube.com/embed/c1sadHWybW8?si=UaIXK3VwRVlE-lAv">
+            <img src="populares/Jonah.jpg" alt="Jonah">
+            <div class="movie-info">
+              <h3>Jonah</h3>
+              <p>Duracion: 1h 25min</p>
+              <p>En el salvaje Oeste, a Jonah Hex (Josh Brolin) lo conocen por la cicatriz de su cara y por vestir un uniforme del ejército confederado....</p>
+              <div class="movie-buttons">
+                <button class="play-button"><i class="fa-solid fa-play"></i></button>
+                <button class="info-button">Ver información</button>
+              </div>
+            </div>
+          </li>
+          <li data-index="5" data-video-src="https://player.repelis24.yt/embeds/1139829">
+            <img src="populares/OrionYLaOscuridad.jpg" alt="OrionYLaOscuridad">
+            <div class="movie-info">
+              <h3>Orion y la Oscuridad</h3>
+              <p>Duracion: 1h 33min</p>
+              <p>Lo que más teme Orión es la oscuridad. Cuando la encarnación de su peor miedo hace una visita, Dark se lleva a Orión a una montaña rusa que gira alrededor del mundo para demostrarle que no hay nada que temer por la noche.</p>
+              <div class="movie-buttons">
+                <button class="play-button"><i class="fa-solid fa-play"></i></button>
+                <button class="info-button">Ver información</button>
+              </div>
+            </div>
+          </li>
+          <li data-index="6" data-video-src="https://player.repelis24.yt/embeds/1019420">
+            <img src="populares/UnDeseoIrlandes.jpg" alt="UnDeseoIrlandes">
+            <div class="movie-info">
+              <h3>Un deseo Irlandes</h3>
+              <p>Duracion: 1h 33min</p>
+              <p>Cuando el amor de su vida se compromete con su amiga, Maddie deja sus sentimientos a un lado para ser dama de honor en su boda en Irlanda. Días antes de la boda, Maddie pide espontáneamente un deseo de amor verdadero, sólo para despertarse como la futura novia.</p>
+              <div class="movie-buttons">
+                <button class="play-button"><i class="fa-solid fa-play"></i></button>
+                <button class="info-button">Ver información</button>
+              </div>
+            </div>
+          </li>
+          <li data-index="7" data-video-src="https://player.repelis24.yt/embeds/1011985">
+            <img src="populares/KunfuPanda4.jpg" alt="KunfuPanda4">
+            <div class="movie-info">
+              <h3>Kung Fu Panda 4 (CAM)</h3>
+              <p>Duracion: 1h 26min</p>
+              <p>Po se prepara para ser el líder espiritual del Valle de la Paz, buscando un sucesor como Guerrero Dragón. Mientras entrena a un nuevo practicante de kung fu, enfrenta al villano llamado «el Camaleón», que evoca villanos del pasado, desafiando todo lo que Po y sus amigos han aprendido.</p>
+              <div class="movie-buttons">
+                <button class="play-button"><i class="fa-solid fa-play"></i></button>
+                <button class="info-button">Ver información</button>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <a href="#" class="prev"><i class="fa-solid fa-chevron-left"></i></a>
+      <a href="#" class="next"><i class="fa-solid fa-chevron-right"></i></a>
+    </div>
+  </div>
+  <div class="video-player" style="display: none;">
+    <iframe id="video-iframe" width="100%" height="500" frameborder="0" allowfullscreen></iframe>
+    <i class="fa-solid fa-xmark close-player"></i>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html> 
